@@ -1,0 +1,139 @@
+* { 
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  padding: 5px 50px;
+  border: solid 5px black;
+  border-style: double ;
+                                                  
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  align-self: center;
+}
+h1 , h2 {
+  font-family: 'Harry Potter', sans-serif;
+}
+
+.trybewarts-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#evaluation-form , .new-form-data {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  border: double 1px black;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #FBECD0;
+  padding: 15px;
+
+}
+
+input, select, textarea, footer, button, label {
+  font-family: 'Harry Potter', sans-serif;
+}
+
+#trybewarts-forms-logo {  
+  padding-left : 200px;
+  align-self: center;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+button {
+  padding: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: grey; 
+  align-items: center;
+  font-family: 'Harry Potter', sans-serif;
+  
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#family , #class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 5px;
+  background-color: #FAE5BD;
+}
+
+#form-data {
+  display: flex;
+  order: -1;
+  flex-direction: column;
+}
+
+#container-check {
+  display: flex;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;  
+}
+
+#footer {
+  display: flex;  
+  margin-bottom : -20px;  
+  justify-content: center;
+  background-color: rgb(50, 167, 145);
+  color: white;
+  border: solid 5px black;
+  border-style: double ;
+}
+
+.trybewarts-header-logo {
+  width: 100px;
+}
+
+#family-items {
+  display: flex;
+  flex-direction: column;
+}
+
+#family-items input{
+  margin: 15px;
+}
+
+.container-subject {
+  padding: 20px;
+  margin: 15px 20px;
+  
+}
+
+.subject {
+  margin: 15px;
+}
+
+#rate-itens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
