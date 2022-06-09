@@ -57,9 +57,9 @@ function houseFormsData() {
 }
 
 function familyForms() {
-  for (let i = 0; i < document.getElementById('family').children.length; i += 1) {
-    if (document.getElementById('family').children[i].checked === true) {
-      const newFamily = `Família: ${document.getElementById('family').children[i].value}`;
+  for (let i = 0; i < document.querySelectorAll('.family').length; i += 1) {
+    if (document.querySelectorAll('.family')[i].checked === true) {
+      const newFamily = `Família: ${document.querySelectorAll('.family')[i].value}`;
       const newLabelFamily = document.createElement('label');
       newLabelFamily.innerText = newFamily;
       dadForm.appendChild(newLabelFamily);
@@ -69,9 +69,9 @@ function familyForms() {
 
 function classFormsData() {
   const classArray = [];
-  for (let i = 0; i < document.getElementById('class').children.length; i += 1) {
-    if (document.getElementById('class').children[i].checked === true) {
-      classArray.push(` ${document.getElementById('class').children[i].value}`);
+  for (let i = 0; i < document.querySelectorAll('.subject').length; i += 1) {
+    if (document.querySelectorAll('.subject')[i].checked === true) {
+      classArray.push(` ${document.querySelectorAll('.subject')[i].value}`);
     }
   }
   const newClass = `Matérias: ${classArray}`;
