@@ -36,7 +36,7 @@ h1 , h2 {
   border: double 1px black;
   border-radius: 5px;
   align-items: center;
-  margin-top: 20px;
+  margin: 2px 0px;
   background-color: #FBECD0;
   padding: 15px;
 
@@ -64,8 +64,7 @@ main {
   justify-content: center;
   background-color: grey; 
   align-items: center;
-  font-family: 'Harry Potter', sans-serif;
-  
+  font-family: 'Harry Potter', sans-serif;  
 }
 
 #trybewarts-forms-logo {
