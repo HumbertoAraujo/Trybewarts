@@ -3,6 +3,13 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: 'Harry';
+  src: url('./fonts/harryPotter.TTF') format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -19,7 +26,7 @@ h1 {
   align-self: center;
 }
 h1 , h2 {
-  font-family: 'Harry Potter', sans-serif;
+  font-family: 'Harry', 'Harry Potter', sans-serif;
 }
 
 .trybewarts-login {
@@ -43,7 +50,7 @@ h1 , h2 {
 }
 
 input, select, textarea, footer, button, label {
-  font-family: 'Harry Potter', sans-serif;
+  font-family: 'Harry', 'Harry Potter', sans-serif;
 }
 
 #trybewarts-forms-logo {  
@@ -64,7 +71,7 @@ main {
   justify-content: center;
   background-color: grey; 
   align-items: center;
-  font-family: 'Harry Potter', sans-serif;  
+  font-family: 'Harry','Harry Potter', sans-serif;  
 }
 
 #trybewarts-forms-logo {
