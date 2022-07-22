@@ -53,7 +53,7 @@ input, select, textarea, footer, button, label {
 body{
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: stretch;  
 }
 button {
   padding: 5px;
