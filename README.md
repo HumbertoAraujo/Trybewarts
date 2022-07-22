@@ -454,7 +454,3 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 </details>
 
 ---
-
-# Requisito não avaliativo:
-
-Esse requisito **não** é verificado pelo avaliador automático.
